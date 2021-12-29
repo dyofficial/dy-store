@@ -28,7 +28,7 @@ function Product({ product, onAddToCart }) {
           <Typography variant="h5" gutterBottom>
             {product.name}
           </Typography>
-          <Typography variant="h5">
+          <Typography variant="h5" color="secondary">
             {product.price.formatted_with_symbol}
           </Typography>
         </div>
