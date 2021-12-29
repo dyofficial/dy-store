@@ -29,7 +29,7 @@ function Product({ product, onAddToCart }) {
             {product.name}
           </Typography>
           <Typography variant="h5">
-            {product.price.formated_with_symbol}
+            {product.price.formatted_with_symbol}
           </Typography>
         </div>
         <Typography variant="body2" color="textSecondary">
